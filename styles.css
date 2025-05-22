@@ -1,3 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   padding: 80px;
 }
@@ -9,6 +36,20 @@
 .title {
   text-align: center;
   font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.features {
+  margin-top: 40px;
+}
+.features-sub-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.perforation-list {
+  width: 700px;
+  margin: 0 auto;
 }
 
 .item-wrap {
@@ -27,4 +68,36 @@
   gap: 20px;
 }
 .img {
+}
+
+.advantages {
+  margin-top: 40px;
+}
+
+.advantages-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.advantages-wrapper {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.advantages-sub-title {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.advantages-list {
+  margin: 0 auto;
+}
+
+.advantages-sub-list {
+  margin: 0 auto;
+  width: 700px;
 }
